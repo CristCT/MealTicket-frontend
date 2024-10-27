@@ -15,8 +15,8 @@ Este es el frontend de **MealTicket**, una aplicación desarrollada en **React**
    ```bash
    git clone https://github.com/tu-usuario/mealticket-frontend.git
    cd mealticket-frontend
-    ```
-  
+   ```
+
 2. Instala las dependencias:
 
    ```bash
@@ -27,12 +27,14 @@ Este es el frontend de **MealTicket**, una aplicación desarrollada en **React**
 
    ```env
     VITE_API_URL=http://localhost:4000/graphql
-    ```
+   ```
+
 4. Inicia el servidor de desarrollo:
 
    ```bash
    npm run dev
    ```
+
 5. Abre tu navegador y navega a `http://localhost:4000` o al puerto que se indique en la terminal.
 
 ## Estructura del Proyecto
