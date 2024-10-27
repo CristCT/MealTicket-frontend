@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Azul oscuro para fondos y headers */
+  --primary-color: #1e3a8a;
+  /* Azul medio para botones y enlaces */
+  --secondary-color: #3b82f6;
+  /* Verde para botones de confirmación */
+  --accent-color: #10b981;
+  /* Rojo para acciones destructivas */
+  --danger-color: #ef4444;
+  /* Gris oscuro para texto */
+  --text-color: #1f2937;
+  /* Gris claro para fondos */
+  --background-color: #f9fafb;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+}
